@@ -1,6 +1,6 @@
 import {useState} from "react";
 
-const students = ['yarin', 'itay', 'nicole', 'ophir'];
+const students = ['ron', 'rosie', 'nicole', 'daniel'];
 export default function StudentPicker() {
 
     const [student, setStudent] = useState(null)
