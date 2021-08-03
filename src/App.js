@@ -24,38 +24,28 @@ function App() {
  
     return (
         <div>
-            {/*<button onClick={clickHandler}>Click me</button>*/}
-            {/*<Counter />*/}
-            {/*<StudentPicker/>*/}
-            <div>
-                <Menu>
-                    <h1>Menu</h1>
-                    <MenuItem>
-                        <a
-                            href={'/Content'}>
-                            Content
-                        </a>
-                    </MenuItem>
-                    <MenuItem>
-                        <a
-                            href={'/Gallery'}>
-                            Gallery
-                        </a>
-                    </MenuItem>
-                    <MenuItem>
-                        <a href={'/Contact'}>
-                            Contact
-                        </a>
-                    </MenuItem>
-                </Menu>
-            </div>
+            {/* <button onClick={clickHandler}>Click me</button> */}
+            {/* <Counter /> */}
+            {/* <StudentPicker/> */}
+        
+        
+        
+        <Menu>
+            <MenuItem> <a href="/" className="home">Homepage</a></MenuItem>
+            <MenuItem> <a href="/" className="gallery">Gallery</a></MenuItem>
+            <MenuItem> <a href="/" className="contact">Contact</a></MenuItem>
+        </Menu>
+        
+                
+            
             <div>
             <RandomColorSquare>
 
             </RandomColorSquare>
             </div>
+        
         {/*<Initials name='Ron Mikles'/>*/}
-        {/*<DayOfWeek day={0}/>*/}
+        {/*<DayOfWeek day={1}/>*/}
         {/*  <Article title='Bla Bla' Content='Bla Bla Bla?'/>*/}
         </div>
     );
