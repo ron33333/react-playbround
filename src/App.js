@@ -55,7 +55,7 @@ function App() {
             </RandomColorSquare>
             </div>
         {/*<Initials name='Ron Mikles'/>*/}
-        {/*<DayOfWeek day={1}/>*/}
+        {/*<DayOfWeek day={0}/>*/}
         {/*  <Article title='Bla Bla' Content='Bla Bla Bla?'/>*/}
         </div>
     );
