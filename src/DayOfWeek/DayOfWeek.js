@@ -1,4 +1,4 @@
 export default function DayOfWeek(props) {
-    const days =['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+    const days =['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
     return <div>{days[props.day]}</div>
 }
